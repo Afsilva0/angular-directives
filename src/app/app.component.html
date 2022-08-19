@@ -1,19 +1,24 @@
-<hello name="{{ name }}"></hello>
-
+<!-- Uso de directiva para colorear fondo  -->
 <p backgroundColor="red">
-  Este parrafo esta pintado de color rojo por una directiva
+  Este parrafo esta pintado de color de fondo rojo por una directiva
 </p>
 
 <p backgroundColor="#cccccc">
-  Este parrafo esta pintado de color gris por una directiva
+  Este parrafo esta pintado de color de fondo gris por una directiva
 </p>
 
 <p backgroundColor="yellow">
-  Este parrafo esta pintado de color amarillo por una directiva
+  Este parrafo esta pintado de color de fondo amarillo por una directiva
 </p>
 
+<!-- Uso de directiva para repetir contenedor -->
 <div *repeatContent="5">
   <h3>Hola Andrés Silva</h3>
 
   <p>Esto es una directiva que repite contenedores</p>
 </div>
+
+<!-- Uso de directiva multiple para colorear y cambiar tamaño de texto -->
+<p fontSizeAndColor fontSize="2px" color="yellow">
+  Este parrafo esta pintado de color amarillo por una directiva
+</p>
