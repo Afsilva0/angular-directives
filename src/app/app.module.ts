@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { BackgroundColorDirective } from '../diretives/background-color.directive';
 import { RepeatContentDirective } from '../diretives/repeat-content.directive';
-import { FontSizeAndColorDirective } from 'src/diretives/font-sizeAndColor.directive';
+import { FontSizeColorDirective } from '../diretives/font-size-color.directive';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -13,7 +13,7 @@ import { FontSizeAndColorDirective } from 'src/diretives/font-sizeAndColor.direc
     AppComponent,
     BackgroundColorDirective,
     RepeatContentDirective,
-    FontSizeAndColorDirective,
+    FontSizeColorDirective,
   ],
   bootstrap: [AppComponent],
 })

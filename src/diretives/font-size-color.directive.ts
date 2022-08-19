@@ -1,9 +1,9 @@
 import { Directive, ElementRef, Input, OnChanges } from '@angular/core';
 
 @Directive({
-  selector: '[fontSizeAndColor]',
+  selector: '[fontSizeColor]',
 })
-export class FontSizeAndColorDirective implements OnChanges {
+export class FontSizeColorDirective implements OnChanges {
   @Input() fontSize: string;
   @Input() color: string;
   constructor(private elementRef: ElementRef) {}
