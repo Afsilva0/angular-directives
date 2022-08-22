@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BackgroundColorDirective } from '../diretives/background-color.directive';
 import { RepeatContentDirective } from '../diretives/repeat-content.directive';
 import { FontSizeColorDirective } from '../diretives/font-size-color.directive';
+import { CopyPasteDirective } from '../diretives/copy-paste.directive';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -14,6 +15,7 @@ import { FontSizeColorDirective } from '../diretives/font-size-color.directive';
     BackgroundColorDirective,
     RepeatContentDirective,
     FontSizeColorDirective,
+    CopyPasteDirective,
   ],
   bootstrap: [AppComponent],
 })
